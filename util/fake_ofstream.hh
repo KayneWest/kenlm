@@ -11,13 +11,9 @@
 #include "util/scoped.hh"
 #include "util/string_piece.hh"
 
-/*
-#define BOOST_LEXICAL_CAST_ASSUME_C_LOCALE
-#include <boost/lexical_cast.hpp>
-*/
 
 #define BOOST_LEXICAL_CAST_ASSUME_C_LOCALE
-#include "util/lexical_cast.hpp"
+#include <boost/lexical_cast.hpp>
 
 namespace util {
 class FakeOFStream {
