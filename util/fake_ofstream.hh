@@ -17,7 +17,7 @@
 */
 
 #define BOOST_LEXICAL_CAST_ASSUME_C_LOCALE
-#include "lexical_cast.hpp"
+#include "util/lexical_cast.hpp"
 
 namespace util {
 class FakeOFStream {
